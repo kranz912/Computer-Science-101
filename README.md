@@ -45,7 +45,9 @@ print('Hello World')
 ```
 
 
-### Data types
+### 1.8 Data types
+
+#### Numeric Datatypes
 Python has two numeric data types integer and float. These datatypes have standard arithmetic operations. `+,-,*,/ and **(exponentiation)` . Numeric data types also supports the (modulo) operator `%` and integer division `//`.
 
 An example of how to use arithmetic operators in python.
@@ -63,3 +65,5 @@ print(3/6)
 print(3//6)
 print(3%6)
 ```
+#### Boolean data type.
+Boolean datatypes are often use in flow control. There are only two possible value for Boolean. `True` and `False`.
