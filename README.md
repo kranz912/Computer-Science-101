@@ -48,6 +48,7 @@ print('Hello World')
 ### Data types
 Python has two numeric data types integer and float. These datatypes have standard arithmetic operations. `+,-,*,/ and **(exponentiation)` . Numeric data types also supports the (modulo) operator `%` and integer division `//`.
 
+An example of how to use arithmetic operators in python.
 
 ```python
 
