@@ -112,4 +112,4 @@ print((5 >= 1) and (5 <= 10)) # True
 * `set` are mutable objects; not index at all; items are *NOT* stored in order they were added; only contain immutable objects; does *NOT* contain duplicate elements.
   * `{ 'Python', 'C#', 'Java', 'JavaScript' }`
 * `dict` are mutable objects; key-value pairs are indexed by immutable keys; items are *NOT* stored in the order they were added.
-  * `{'name': 'kranz', 'age': '28', 'fav_foods': ['chicken','soup','rice']`
+  * `{'name': 'kranz', 'age': '28', 'fav_foods': ['chicken','soup','rice'] }`
