@@ -97,7 +97,19 @@ Boolean datatypes are also the result of comparision operators such as equality 
 |logical not	            | not	        |Negates the truth value, False becomes True, True becomes False |
 
 ```python
-print(5==10)
-print(10 > 5)
-print((5 >= 1) and (5 <= 10))
+print(5==10) # False
+print(10 > 5) # True
+print((5 >= 1) and (5 <= 10)) # True
 ```
+
+# Containers
+`mutable` objects can be modified after creation and `immutable` objects cannot.
+* `str` are immutable objects; indexed by integers; items are stored in the order they were added.
+* `list` are mutable object; indexed by integers; items are stored in order they were added.
+  * `[3, 4, 5, 'cat', dog', False]`
+* `tuple` are immutable objects; index by integers; items are stored in the order they were added.
+  * `(3, 4, 5, 'dog', 'cat', False)`
+* `set` are mutable objects; not index at all; items are *NOT* stored in order they were added; only contain immutable objects; does *NOT* contain duplicate elements.
+  * `{ 'Python', 'C#', 'Java', 'JavaScript' }`
+* `dict` are mutable objects; key-value pairs are indexed by immutable keys; items are *NOT* stored in the order they were added.
+  * `{'name': 'kranz', 'age': '28', 'fav_foods': ['chicken','soup','rice']`
